@@ -1,0 +1,1 @@
+export { WebIconsClose } from "./WebIconsClose";

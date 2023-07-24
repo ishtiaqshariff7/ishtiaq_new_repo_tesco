@@ -1,0 +1,321 @@
+.enhanced-standalone-links {
+  align-items: flex-start;
+  display: inline-flex;
+  gap: 4px;
+  position: relative;
+}
+
+.enhanced-standalone-links .enhanced-standalone-3 {
+  flex: 0 0 auto !important;
+}
+
+.enhanced-standalone-links .enhanced-standalone-4 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  position: relative;
+}
+
+.enhanced-standalone-links .web-icons-backward-2 {
+  left: unset !important;
+  position: relative !important;
+  top: unset !important;
+}
+
+.enhanced-standalone-links .label-21 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  position: relative;
+}
+
+.enhanced-standalone-links .text-16 {
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.enhanced-standalone-links .label-22 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  position: relative;
+}
+
+.enhanced-standalone-links .text-17 {
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.enhanced-standalone-links .web-icons-forward-2 {
+  height: 24px;
+  position: relative;
+  width: 24px;
+}
+
+.enhanced-standalone-links .class-59 {
+  color: var(--interaction-palettewhite) !important;
+}
+
+.enhanced-standalone-links .class-60 {
+  color: var(--interaction-paletteactive-blue) !important;
+  font-family: "TESCO Modern-Bold", Helvetica !important;
+  font-size: 14px !important;
+  font-style: unset !important;
+  font-weight: 700 !important;
+  letter-spacing: 0 !important;
+  line-height: 18px !important;
+  text-decoration: underline !important;
+}
+
+.enhanced-standalone-links .class-61 {
+  color: var(--interaction-palettewhite) !important;
+  font-family: "TESCO Modern-Bold", Helvetica !important;
+  font-size: 14px !important;
+  font-style: unset !important;
+  font-weight: 700 !important;
+  letter-spacing: 0 !important;
+  line-height: 18px !important;
+  text-decoration: underline !important;
+}
+
+.enhanced-standalone-links .class-62 {
+  color: var(--text-palettebody-grey) !important;
+}
+
+.enhanced-standalone-links .class-63 {
+  color: var(--interaction-palettedisabled-white) !important;
+}
+
+.enhanced-standalone-links .sixteen-pt {
+  gap: 4px;
+}
+
+.enhanced-standalone-links .twenty-pt {
+  gap: 4px;
+}
+
+.enhanced-standalone-links .font-size-sixteen-pt {
+  padding: 1px 0px 0px;
+}
+
+.enhanced-standalone-links .font-size-fourteen-pt {
+  padding: 2px 0px 0px;
+}
+
+.enhanced-standalone-links .font-size-twenty-pt.left {
+  padding: 1px 0px 0px;
+}
+
+.enhanced-standalone-links .state-42-hover {
+  font-family: "TESCO Modern-Bold", Helvetica;
+  font-weight: 700;
+  letter-spacing: 0;
+  text-decoration: underline;
+}
+
+.enhanced-standalone-links .state-42-disabled.icon-position-left {
+  font-family: var(--links-small-enhanced-standalone-link-font-family);
+  font-size: var(--links-small-enhanced-standalone-link-font-size);
+  font-weight: var(--links-small-enhanced-standalone-link-font-weight);
+  letter-spacing: var(--links-small-enhanced-standalone-link-letter-spacing);
+  line-height: var(--links-small-enhanced-standalone-link-line-height);
+}
+
+.enhanced-standalone-links .state-42-hover.font-size-0-fourteen-pt {
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.enhanced-standalone-links .state-42-hover.inverse-true {
+  color: var(--interaction-palettewhite);
+}
+
+.enhanced-standalone-links .font-size-0-sixteen-pt.state-42-disabled {
+  font-style: var(--links-standard-enhanced-standalone-link-font-style);
+}
+
+.enhanced-standalone-links .inverse-false.state-42-hover {
+  color: var(--interaction-paletteactive-blue);
+}
+
+.enhanced-standalone-links .inverse-true.state-42-disabled {
+  color: var(--interaction-palettedisabled-white);
+}
+
+.enhanced-standalone-links .state-42-hover.font-size-0-sixteen-pt {
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.enhanced-standalone-links .state-42-default.icon-position-left {
+  font-family: var(--links-small-enhanced-standalone-link-font-family);
+  font-size: var(--links-small-enhanced-standalone-link-font-size);
+  font-weight: var(--links-small-enhanced-standalone-link-font-weight);
+  letter-spacing: var(--links-small-enhanced-standalone-link-letter-spacing);
+  line-height: var(--links-small-enhanced-standalone-link-line-height);
+}
+
+.enhanced-standalone-links .state-42-default.font-size-0-sixteen-pt {
+  font-style: var(--links-standard-enhanced-standalone-link-font-style);
+}
+
+.enhanced-standalone-links .state-42-hover.font-size-0-twenty-pt {
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.enhanced-standalone-links .inverse-false.state-42-default {
+  color: #00529f;
+}
+
+.enhanced-standalone-links .inverse-false.state-42-disabled {
+  color: var(--text-palettebody-grey);
+}
+
+.enhanced-standalone-links .inverse-true.state-42-default {
+  color: var(--interaction-palettewhite);
+}
+
+.enhanced-standalone-links .state-42-disabled.font-size-0-fourteen-pt.icon-position-right {
+  font-family: var(--links-standard-enhanced-standalone-link-font-family);
+  font-size: var(--links-standard-enhanced-standalone-link-font-size);
+  font-weight: var(--links-standard-enhanced-standalone-link-font-weight);
+  letter-spacing: var(--links-standard-enhanced-standalone-link-letter-spacing);
+  line-height: var(--links-standard-enhanced-standalone-link-line-height);
+}
+
+.enhanced-standalone-links .state-42-default.font-size-0-fourteen-pt.icon-position-right {
+  font-family: var(--links-standard-enhanced-standalone-link-font-family);
+  font-size: var(--links-standard-enhanced-standalone-link-font-size);
+  font-weight: var(--links-standard-enhanced-standalone-link-font-weight);
+  letter-spacing: var(--links-standard-enhanced-standalone-link-letter-spacing);
+  line-height: var(--links-standard-enhanced-standalone-link-line-height);
+}
+
+.enhanced-standalone-links .state-42-disabled.font-size-0-twenty-pt.icon-position-right {
+  font-family: var(--links-large-enhanced-standalone-link-font-family);
+  font-size: var(--links-large-enhanced-standalone-link-font-size);
+  font-style: var(--links-large-enhanced-standalone-link-font-style);
+  font-weight: var(--links-large-enhanced-standalone-link-font-weight);
+  letter-spacing: var(--links-large-enhanced-standalone-link-letter-spacing);
+  line-height: var(--links-large-enhanced-standalone-link-line-height);
+}
+
+.enhanced-standalone-links .state-42-default.font-size-0-sixteen-pt.icon-position-right {
+  font-family: var(--links-standard-enhanced-standalone-link-font-family);
+  font-size: var(--links-standard-enhanced-standalone-link-font-size);
+  font-weight: var(--links-standard-enhanced-standalone-link-font-weight);
+  letter-spacing: var(--links-standard-enhanced-standalone-link-letter-spacing);
+  line-height: var(--links-standard-enhanced-standalone-link-line-height);
+}
+
+.enhanced-standalone-links .state-42-default.font-size-0-twenty-pt.icon-position-right {
+  font-family: var(--links-large-enhanced-standalone-link-font-family);
+  font-size: var(--links-large-enhanced-standalone-link-font-size);
+  font-style: var(--links-large-enhanced-standalone-link-font-style);
+  font-weight: var(--links-large-enhanced-standalone-link-font-weight);
+  letter-spacing: var(--links-large-enhanced-standalone-link-letter-spacing);
+  line-height: var(--links-large-enhanced-standalone-link-line-height);
+}
+
+.enhanced-standalone-links .font-size-0-sixteen-pt.state-42-disabled.icon-position-right {
+  font-family: var(--links-standard-enhanced-standalone-link-font-family);
+  font-size: var(--links-standard-enhanced-standalone-link-font-size);
+  font-weight: var(--links-standard-enhanced-standalone-link-font-weight);
+  letter-spacing: var(--links-standard-enhanced-standalone-link-letter-spacing);
+  line-height: var(--links-standard-enhanced-standalone-link-line-height);
+}
+
+.enhanced-standalone-links .state-42-default.font-size-0-fourteen-pt.icon-position-left {
+  font-style: var(--links-small-enhanced-standalone-link-font-style);
+}
+
+.enhanced-standalone-links .state-42-disabled.font-size-0-fourteen-pt.icon-position-left {
+  font-style: var(--links-small-enhanced-standalone-link-font-style);
+}
+
+.enhanced-standalone-links .state-42-default.font-size-0-twenty-pt.icon-position-left {
+  font-style: var(--links-small-enhanced-standalone-link-font-style);
+}
+
+.enhanced-standalone-links .state-42-disabled.font-size-0-twenty-pt.icon-position-left {
+  font-style: var(--links-small-enhanced-standalone-link-font-style);
+}
+
+.enhanced-standalone-links .right {
+  padding: 1px 0px 0px;
+}
+
+.enhanced-standalone-links .font-size-1-sixteen-pt {
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.enhanced-standalone-links .state-43-disabled {
+  font-family: var(--links-large-enhanced-standalone-link-font-family);
+  font-style: var(--links-large-enhanced-standalone-link-font-style);
+  font-weight: var(--links-large-enhanced-standalone-link-font-weight);
+  letter-spacing: var(--links-large-enhanced-standalone-link-letter-spacing);
+}
+
+.enhanced-standalone-links .state-43-hover {
+  font-family: "TESCO Modern-Bold", Helvetica;
+  font-weight: 700;
+  letter-spacing: 0;
+  text-decoration: underline;
+}
+
+.enhanced-standalone-links .state-43-default {
+  font-family: var(--links-large-enhanced-standalone-link-font-family);
+  font-style: var(--links-large-enhanced-standalone-link-font-style);
+  font-weight: var(--links-large-enhanced-standalone-link-font-weight);
+  letter-spacing: var(--links-large-enhanced-standalone-link-letter-spacing);
+}
+
+.enhanced-standalone-links .font-size-1-fourteen-pt {
+  font-size: var(--links-large-enhanced-standalone-link-font-size);
+  line-height: var(--links-large-enhanced-standalone-link-line-height);
+}
+
+.enhanced-standalone-links .state-43-hover.inverse-0-true {
+  color: var(--interaction-palettewhite);
+}
+
+.enhanced-standalone-links .inverse-0-false.state-43-hover {
+  color: var(--interaction-paletteactive-blue);
+}
+
+.enhanced-standalone-links .inverse-0-true.state-43-disabled {
+  color: var(--interaction-palettedisabled-white);
+}
+
+.enhanced-standalone-links .state-43-disabled.font-size-1-twenty-pt {
+  font-size: var(--links-large-enhanced-standalone-link-font-size);
+  line-height: var(--links-large-enhanced-standalone-link-line-height);
+}
+
+.enhanced-standalone-links .state-43-default.font-size-1-twenty-pt {
+  font-size: var(--links-large-enhanced-standalone-link-font-size);
+  line-height: var(--links-large-enhanced-standalone-link-line-height);
+}
+
+.enhanced-standalone-links .state-43-hover.font-size-1-twenty-pt {
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.enhanced-standalone-links .inverse-0-false.state-43-default {
+  color: #00529f;
+}
+
+.enhanced-standalone-links .inverse-0-false.state-43-disabled {
+  color: var(--text-palettebody-grey);
+}
+
+.enhanced-standalone-links .inverse-0-true.state-43-default {
+  color: var(--interaction-palettewhite);
+}

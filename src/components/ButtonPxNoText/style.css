@@ -1,0 +1,15 @@
+.button-px-no-text {
+  background-color: #00529f;
+  border-radius: 20px;
+  height: 40px;
+  width: 40px;
+}
+
+.button-px-no-text .web-icons-close-wrapper {
+  align-items: flex-start;
+  border-radius: 20px;
+  display: inline-flex;
+  gap: 10px;
+  padding: 8px;
+  position: relative;
+}

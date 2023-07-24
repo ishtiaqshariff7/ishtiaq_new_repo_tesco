@@ -1,0 +1,33 @@
+.button-no-icon {
+  align-items: center;
+  background-color: #00529f;
+  border-radius: 20px;
+  display: inline-flex;
+  justify-content: center;
+  position: relative;
+}
+
+.button-no-icon .div-wrapper {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 4px;
+  justify-content: center;
+  padding: 10px 20px;
+  position: relative;
+}
+
+.button-no-icon .text-2 {
+  color: var(--text-paletteheader-and-body-white);
+  font-family: var(--labels-label-font-family);
+  font-size: var(--labels-label-font-size);
+  font-style: var(--labels-label-font-style);
+  font-weight: var(--labels-label-font-weight);
+  letter-spacing: var(--labels-label-letter-spacing);
+  line-height: var(--labels-label-line-height);
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}

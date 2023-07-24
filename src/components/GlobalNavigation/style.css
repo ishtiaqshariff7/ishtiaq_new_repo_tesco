@@ -1,0 +1,17 @@
+.global-navigation {
+  height: 32px;
+  width: 1260px;
+}
+
+.global-navigation .div-5 {
+  align-items: flex-start;
+  background-color: var(--background-palettetesco-blue);
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  width: 1260px;
+}
+
+.global-navigation .menu-item {
+  flex: 0 0 auto !important;
+}

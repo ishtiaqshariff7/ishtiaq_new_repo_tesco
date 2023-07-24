@@ -1,0 +1,16 @@
+.button-label-only-wrapper {
+  align-items: center;
+  border-radius: 20px;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+}
+
+.button-label-only-wrapper .button-px-no-icon {
+  align-self: stretch !important;
+  display: flex !important;
+  flex: 0 0 auto !important;
+  width: 100% !important;
+}

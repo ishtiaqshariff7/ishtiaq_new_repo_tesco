@@ -1,0 +1,1 @@
+export { ButtonLabelOnlyWrapper } from "./ButtonLabelOnlyWrapper";

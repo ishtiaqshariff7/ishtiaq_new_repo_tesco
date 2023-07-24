@@ -1,0 +1,272 @@
+.global-header {
+  align-items: flex-start;
+  background-color: var(--background-palettewhite);
+  display: flex;
+  flex-direction: column;
+  height: 156px;
+  position: relative;
+  width: 1260px;
+}
+
+.global-header .div-2 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+}
+
+.global-header .global-navigation-instance {
+  align-self: stretch !important;
+  position: relative !important;
+  width: 100% !important;
+}
+
+.global-header .background-overlay {
+  background-color: var(--background-palettemodal-background);
+  height: 1232px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1260px;
+}
+
+.global-header .outer-container {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  position: relative;
+  width: 100%;
+}
+
+.global-header .inner-container-wrapper {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  flex-grow: 1;
+  position: relative;
+}
+
+.global-header .inner-container {
+  align-items: flex-start;
+  align-self: stretch;
+  background-color: var(--background-palettewhite);
+  display: flex;
+  flex: 0 0 auto;
+  position: relative;
+  width: 100%;
+}
+
+.global-header .container-2 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  flex-grow: 1;
+  justify-content: space-between;
+  position: relative;
+}
+
+.global-header .property-container {
+  align-items: flex-end;
+  align-self: stretch;
+  background-color: var(--background-palettewhite);
+  display: flex;
+  flex: 0 0 auto;
+  justify-content: space-between;
+  padding: 20px 12px 12px;
+  position: relative;
+  width: 100%;
+}
+
+.global-header .logo-container {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  padding: 4px 0px 0px;
+  position: relative;
+}
+
+.global-header .search-with-dropdown-wrapper {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  position: relative;
+}
+
+.global-header .instance-node-2 {
+  flex: 0 0 auto !important;
+}
+
+.global-header .local-navigation-instance {
+  align-self: stretch !important;
+  flex: 0 0 auto !important;
+  justify-content: unset !important;
+  width: 100% !important;
+}
+
+.global-header .local-navigation-2 {
+  display: flex !important;
+  flex: 1 !important;
+  flex-grow: 1 !important;
+}
+
+.global-header .tesco-logos-tesco {
+  flex: 0 0 auto !important;
+  padding: 0px 0px 2px !important;
+}
+
+.global-header .background-overlay-2 {
+  background-color: var(--background-palettemodal-background);
+  height: 1106px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1260px;
+}
+
+.global-header .local-navigation-3 {
+  left: unset !important;
+  margin-bottom: -3931px !important;
+  margin-left: -3379px !important;
+  position: relative !important;
+  top: unset !important;
+}
+
+.global-header .local-navigation-4 {
+  margin-bottom: -3897.78px !important;
+  margin-left: -3867px !important;
+  margin-right: unset !important;
+}
+
+.global-header .local-navigation-5 {
+  margin-bottom: -3856.78px !important;
+  margin-left: -3867px !important;
+  margin-right: unset !important;
+}
+
+.global-header .local-navigation-6 {
+  margin-bottom: -3815.78px !important;
+  margin-left: -3867px !important;
+  margin-right: unset !important;
+}
+
+.global-header .local-navigation-7 {
+  margin-bottom: -3774.78px !important;
+  margin-left: -3867px !important;
+  margin-right: unset !important;
+}
+
+.global-header .local-navigation-8 {
+  margin-bottom: -3733.78px !important;
+  margin-left: -3867px !important;
+  margin-right: unset !important;
+}
+
+.global-header .local-navigation-9 {
+  margin-bottom: -3692.78px !important;
+  margin-left: -3867px !important;
+  margin-right: unset !important;
+}
+
+.global-header .local-navigation-10 {
+  margin-bottom: -3651.78px !important;
+  margin-left: -3867px !important;
+  margin-right: unset !important;
+}
+
+.global-header .local-navigation-11 {
+  margin-bottom: -3610.78px !important;
+  margin-left: -3867px !important;
+  margin-right: unset !important;
+}
+
+.global-header .local-navigation-12 {
+  margin-bottom: -3569.78px !important;
+  margin-left: -3867px !important;
+  margin-right: unset !important;
+}
+
+.global-header .local-navigation-13 {
+  margin-bottom: -3528.78px !important;
+  margin-left: -3867px !important;
+  margin-right: unset !important;
+}
+
+.global-header .local-navigation-14 {
+  margin-bottom: -3487.78px !important;
+  margin-left: -3867px !important;
+  margin-right: unset !important;
+}
+
+.global-header .local-navigation-15 {
+  margin-bottom: -3446.78px !important;
+  margin-left: -3867px !important;
+  margin-right: unset !important;
+}
+
+.global-header .local-navigation-16 {
+  margin-bottom: -3405.78px !important;
+  margin-left: -3867px !important;
+  margin-right: unset !important;
+}
+
+.global-header .local-navigation-17 {
+  margin-bottom: -3364.78px !important;
+  margin-left: -3867px !important;
+  margin-right: unset !important;
+}
+
+.global-header .local-navigation-18 {
+  margin-bottom: -3323.78px !important;
+  margin-left: -3867px !important;
+  margin-right: unset !important;
+}
+
+.global-header .local-navigation-19 {
+  margin-bottom: -3282.78px !important;
+  margin-left: -3867px !important;
+  margin-right: unset !important;
+}
+
+.global-header .local-navigation-20 {
+  margin-bottom: -3241.78px !important;
+  margin-left: -3867px !important;
+  margin-right: unset !important;
+}
+
+.global-header .local-navigation-21 {
+  margin-bottom: -3200.78px !important;
+  margin-left: -3867px !important;
+  margin-right: unset !important;
+}
+
+.global-header .local-navigation-22 {
+  margin-bottom: -3159.78px !important;
+  margin-left: -3867px !important;
+  margin-right: unset !important;
+}
+
+.global-header .local-navigation-23 {
+  align-self: stretch !important;
+  flex: 0 0 auto !important;
+  margin-top: -72px !important;
+  padding: unset !important;
+  width: 100% !important;
+}
+
+.global-header .fly-out-menu-true {
+  height: 1206px;
+  margin-bottom: -1082px;
+}
+
+.global-header .fly-out-menu-false {
+  flex: 0 0 auto;
+}

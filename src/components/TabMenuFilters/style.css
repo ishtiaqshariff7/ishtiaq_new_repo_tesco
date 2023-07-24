@@ -1,0 +1,49 @@
+.tab-menu-filters {
+  align-items: flex-start;
+  display: inline-flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.tab-menu-filters .tabs {
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 8px;
+  position: relative;
+}
+
+.tab-menu-filters .tab-menu-items-instance {
+  flex: 0 0 auto !important;
+}
+
+.tab-menu-filters .tab-menu-items-2 {
+  flex: 0 0 auto !important;
+  z-index: 4 !important;
+}
+
+.tab-menu-filters .tab-menu-items-3 {
+  flex: 0 0 auto !important;
+  z-index: 3 !important;
+}
+
+.tab-menu-filters .tab-menu-items-4 {
+  flex: 0 0 auto !important;
+  z-index: 2 !important;
+}
+
+.tab-menu-filters .tab-menu-items-5 {
+  flex: 0 0 auto !important;
+  z-index: 1 !important;
+}
+
+.tab-menu-filters.state-0-default {
+  gap: 8px;
+}
+
+.tab-menu-filters.state-0-active-selected .tabs {
+  align-items: flex-end;
+}
+
+.tab-menu-filters.state-0-default .tabs {
+  align-items: flex-start;
+}

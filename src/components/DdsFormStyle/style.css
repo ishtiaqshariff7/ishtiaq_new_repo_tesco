@@ -1,0 +1,7 @@
+.DDS-form-style {
+  background-color: var(--background-palettewhite);
+  border: 1px solid;
+  border-color: var(--line-paletteinput-border-grey);
+  height: 40px;
+  width: 49px;
+}

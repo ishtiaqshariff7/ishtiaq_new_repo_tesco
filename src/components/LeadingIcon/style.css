@@ -1,0 +1,53 @@
+.leading-icon {
+  align-items: flex-start;
+  display: inline-flex;
+  gap: 10px;
+  position: relative;
+}
+
+.leading-icon .web-icons-backward-24px-small-wrapper {
+  flex: 0 0 auto !important;
+}
+
+.leading-icon .web-icons-backward-24px-small {
+  left: unset !important;
+  position: relative !important;
+  top: unset !important;
+}
+
+.leading-icon .button-icon-button-3 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 4px;
+  position: relative;
+}
+
+.leading-icon .structure-don-t-copy-4 {
+  border-radius: 20px;
+  height: 24px;
+  position: relative;
+  width: 24px;
+}
+
+.leading-icon .web-icons-location-wrapper {
+  align-items: flex-start;
+  border-radius: 14px;
+  display: inline-flex;
+  gap: 10px;
+  position: relative;
+}
+
+.leading-icon .web-icons-location {
+  height: 24px;
+  position: relative;
+  width: 24px;
+}
+
+.leading-icon .union-8 {
+  height: 20px;
+  left: 2px;
+  position: absolute;
+  top: 2px;
+  width: 20px;
+}

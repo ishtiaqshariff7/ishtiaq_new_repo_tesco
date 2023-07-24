@@ -1,0 +1,40 @@
+.checkbox {
+  align-items: flex-start;
+  display: flex;
+  gap: 12px;
+  position: relative;
+  width: 354px;
+}
+
+.checkbox .selector {
+  background-color: #007eb3;
+  background-image: url(https://generation-sessions.s3.amazonaws.com/06351d3a8bbc7a8cde6cf3d9322c28e2/img/-atoms-checkbox-selection-icon-small-171.svg);
+  background-size: 100% 100%;
+  height: 24px;
+  position: relative;
+  width: 24px;
+}
+
+.checkbox .description-wrapper {
+  align-items: flex-start;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  flex-grow: 1;
+  gap: 8px;
+  padding: 2px 0px 0px;
+  position: relative;
+}
+
+.checkbox .description {
+  align-self: stretch;
+  color: var(--text-palettebody-grey);
+  font-family: var(--body-standard-default-short-form-font-family);
+  font-size: var(--body-standard-default-short-form-font-size);
+  font-style: var(--body-standard-default-short-form-font-style);
+  font-weight: var(--body-standard-default-short-form-font-weight);
+  letter-spacing: var(--body-standard-default-short-form-letter-spacing);
+  line-height: var(--body-standard-default-short-form-line-height);
+  margin-top: -1px;
+  position: relative;
+}

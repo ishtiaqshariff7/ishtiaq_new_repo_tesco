@@ -1,0 +1,29 @@
+.status-indicator {
+  border-radius: 8px;
+  height: 16px;
+  width: 16px;
+}
+
+.status-indicator.information {
+  background-color: #0074e0;
+}
+
+.status-indicator.amend {
+  background-color: #007eb3;
+}
+
+.status-indicator.pending {
+  background-color: #666666;
+}
+
+.status-indicator.warning {
+  background-color: #dd6800;
+}
+
+.status-indicator.success {
+  background-color: #008800;
+}
+
+.status-indicator.error {
+  background-color: #cc3333;
+}

@@ -1,0 +1,252 @@
+.chips {
+  align-items: center;
+  border-radius: 16px;
+  display: inline-flex;
+  gap: 8px;
+  overflow: hidden;
+  position: relative;
+}
+
+.chips .text-6 {
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.chips .button-icon-button-2 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 4px;
+  position: relative;
+}
+
+.chips .icon-wrapper {
+  border-radius: 20px;
+  height: 24px;
+  position: relative;
+  width: 24px;
+}
+
+.chips .web-icons-add-wrapper {
+  align-items: flex-start;
+  border-radius: 14px;
+  display: inline-flex;
+  gap: 10px;
+  position: relative;
+}
+
+.chips .web-icons-add {
+  height: 24px;
+  position: relative;
+  width: 24px;
+}
+
+.chips .union-4 {
+  height: 12px;
+  left: 6px;
+  position: absolute;
+  top: 6px;
+  width: 12px;
+}
+
+.chips .icon-22 {
+  height: 24px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 24px;
+}
+
+.chips .label-icon {
+  align-items: center;
+  border: 2px solid;
+  border-color: #00529f;
+  border-radius: 16px;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 8px;
+  padding: 4px 4px 4px 16px;
+  position: relative;
+}
+
+.chips .text-7 {
+  color: var(--text-palettetesco-blue);
+  font-family: "TESCO Modern-Bold", Helvetica;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 18px;
+  position: relative;
+  text-align: center;
+  text-decoration: underline;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.chips .structure-don-t-copy-3 {
+  background-color: #00529f;
+  border-radius: 20px;
+  height: 24px;
+  position: relative;
+  width: 24px;
+}
+
+.chips .text-8 {
+  font-family: var(--labels-label-small-font-family);
+  font-size: var(--labels-label-small-font-size);
+  font-style: var(--labels-label-small-font-style);
+  font-weight: var(--labels-label-small-font-weight);
+  letter-spacing: var(--labels-label-small-letter-spacing);
+  line-height: var(--labels-label-small-line-height);
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.chips .button-icon-button-instance {
+  flex: 0 0 auto !important;
+}
+
+.chips.selected {
+  background-color: var(--interaction-paletteactive-blue);
+  padding: 4px 4px 4px 16px;
+}
+
+.chips.selected-hover {
+  background-color: var(--interaction-paletteactive-blue);
+  border: 4px solid;
+  border-color: var(--interaction-palettehighlight-blue-hover);
+  padding: 4px 4px 4px 16px;
+}
+
+.chips.unselected {
+  background-color: var(--background-palettewhite);
+  border: 2px solid;
+  border-color: #00529f;
+  padding: 4px 4px 4px 16px;
+}
+
+.chips.unselected-disabled {
+  background-color: var(--background-palettewhite);
+  border: 2px solid;
+  border-color: var(--interaction-palettedisabled-grey);
+  padding: 4px 4px 4px 16px;
+}
+
+.chips.unselected-hover {
+  background-color: var(--background-palettewhite);
+  border: 4px solid;
+  border-color: var(--interaction-palettetesco-blue-hover);
+}
+
+.chips.selected-disabled {
+  background-color: var(--interaction-palettedisabled-grey);
+  padding: 4px 4px 4px 16px;
+}
+
+.chips.selected .text-6 {
+  color: var(--text-palettetesco-blue);
+  font-family: "TESCO Modern-Bold", Helvetica;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 18px;
+}
+
+.chips.selected-hover .text-6 {
+  color: var(--text-paletteheader-and-body-white);
+  font-family: "TESCO Modern-Bold", Helvetica;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 18px;
+  text-decoration: underline;
+}
+
+.chips.unselected .text-6 {
+  color: var(--text-palettetesco-blue);
+  font-family: "TESCO Modern-Bold", Helvetica;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 18px;
+}
+
+.chips.unselected-disabled .text-6 {
+  color: var(--text-palettebody-grey);
+  font-family: var(--labels-label-small-font-family);
+  font-size: var(--labels-label-small-font-size);
+  font-style: var(--labels-label-small-font-style);
+  font-weight: var(--labels-label-small-font-weight);
+  letter-spacing: var(--labels-label-small-letter-spacing);
+  line-height: var(--labels-label-small-line-height);
+}
+
+.chips.unselected-hover .text-6 {
+  color: var(--text-palettetesco-blue);
+  font-family: "TESCO Modern-Bold", Helvetica;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 18px;
+}
+
+.chips.selected-disabled .text-6 {
+  color: var(--text-palettetesco-blue);
+  font-family: "TESCO Modern-Bold", Helvetica;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 18px;
+}
+
+.chips.selected .icon-wrapper {
+  background-color: #00529f;
+}
+
+.chips.selected-hover .icon-wrapper {
+  background-color: var(--interaction-palettewhite);
+}
+
+.chips.unselected .icon-wrapper {
+  background-color: #00529f;
+}
+
+.chips.unselected-disabled .icon-wrapper {
+  background-color: var(--interaction-palettedisabled-grey);
+}
+
+.chips.unselected-hover .icon-wrapper {
+  background-color: #00529f;
+}
+
+.chips.selected-disabled .icon-wrapper {
+  background-color: #00529f;
+}
+
+.chips.selected .text-8 {
+  color: var(--text-paletteheader-and-body-white);
+}
+
+.chips.selected-hover .text-8 {
+  color: var(--text-paletteheader-and-body-white);
+}
+
+.chips.unselected .text-8 {
+  color: var(--text-paletteheader-and-body-white);
+}
+
+.chips.unselected-disabled .text-8 {
+  color: var(--text-paletteheader-and-body-white);
+}
+
+.chips.unselected-hover .text-8 {
+  color: var(--text-paletteheader-and-body-white);
+}
+
+.chips.selected-disabled .text-8 {
+  color: var(--text-palettebody-grey);
+}

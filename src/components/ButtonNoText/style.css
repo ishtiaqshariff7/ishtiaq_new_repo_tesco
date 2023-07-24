@@ -1,0 +1,14 @@
+.button-no-text {
+  background-color: #00529f;
+  border-radius: 20px;
+  height: 24px;
+  width: 24px;
+}
+
+.button-no-text .icon-21 {
+  align-items: flex-start;
+  border-radius: 14px;
+  display: inline-flex;
+  gap: 10px;
+  position: relative;
+}

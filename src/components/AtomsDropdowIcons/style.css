@@ -1,0 +1,11 @@
+.atoms-dropdow-icons {
+  align-items: flex-start;
+  display: inline-flex;
+  position: relative;
+}
+
+.atoms-dropdow-icons .web-icons-expand-24px-default-instance {
+  left: unset !important;
+  position: relative !important;
+  top: unset !important;
+}

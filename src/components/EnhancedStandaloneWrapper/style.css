@@ -1,0 +1,33 @@
+.enhanced-standalone-wrapper {
+  align-items: flex-start;
+  display: inline-flex;
+  position: relative;
+}
+
+.enhanced-standalone-wrapper .label-23 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  padding: 2px 0px 0px;
+  position: relative;
+}
+
+.enhanced-standalone-wrapper .text-18 {
+  color: #00529f;
+  font-family: var(--links-small-enhanced-standalone-link-font-family);
+  font-size: var(--links-small-enhanced-standalone-link-font-size);
+  font-style: var(--links-small-enhanced-standalone-link-font-style);
+  font-weight: var(--links-small-enhanced-standalone-link-font-weight);
+  letter-spacing: var(--links-small-enhanced-standalone-link-letter-spacing);
+  line-height: var(--links-small-enhanced-standalone-link-line-height);
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.enhanced-standalone-wrapper .web-icons-forward-24px-small {
+  left: unset !important;
+  position: relative !important;
+  top: unset !important;
+}

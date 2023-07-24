@@ -1,0 +1,37 @@
+.sort-by-element {
+  align-items: center;
+  display: inline-flex;
+  gap: 8px;
+  justify-content: center;
+  padding: 8px 12px;
+  position: relative;
+}
+
+.sort-by-element .design-component-instance-node {
+  width: 125px !important;
+}
+
+.sort-by-element .dropdown-default-7 {
+  left: -7px !important;
+  transform: rotate(180deg) !important;
+  width: 19px !important;
+}
+
+.sort-by-element .dropdown-default-8 {
+  left: 39px !important;
+  position: absolute !important;
+  top: 7px !important;
+}
+
+.sort-by-element .text-9 {
+  color: var(--text-palettebody-grey);
+  font-family: var(--body-standard-default-long-form-font-family);
+  font-size: var(--body-standard-default-long-form-font-size);
+  font-style: var(--body-standard-default-long-form-font-style);
+  font-weight: var(--body-standard-default-long-form-font-weight);
+  letter-spacing: var(--body-standard-default-long-form-letter-spacing);
+  line-height: var(--body-standard-default-long-form-line-height);
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}

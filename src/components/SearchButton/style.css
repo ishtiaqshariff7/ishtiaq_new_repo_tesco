@@ -1,0 +1,17 @@
+.search-button {
+  align-items: flex-start;
+  display: inline-flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.search-button .class-51 {
+  flex: 0 0 auto !important;
+  overflow: unset !important;
+}
+
+.search-button .class-52 {
+  flex: 0 0 auto !important;
+  height: unset !important;
+  overflow: unset !important;
+}

@@ -1,0 +1,1 @@
+export { WebIconsSearch } from "./WebIconsSearch";

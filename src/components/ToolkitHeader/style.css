@@ -1,0 +1,85 @@
+.toolkit-header {
+  align-items: flex-start;
+  background-color: var(--background-palettetesco-blue);
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  width: 1260px;
+}
+
+.toolkit-header .div {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 1px;
+  position: relative;
+}
+
+.toolkit-header .home-container {
+  flex: 0 0 auto;
+  position: relative;
+}
+
+.toolkit-header .web-icons-home-instance {
+  left: unset !important;
+  position: relative !important;
+  top: unset !important;
+}
+
+.toolkit-header .tools-container {
+  border-color: var(--interaction-palettewhite-hover);
+  border-left-style: solid;
+  border-left-width: 1px;
+  border-right-style: solid;
+  border-right-width: 1px;
+  flex: 0 0 auto;
+  margin-bottom: -1px;
+  margin-right: -1px;
+  margin-top: -1px;
+  position: relative;
+}
+
+.toolkit-header .help-and-support {
+  align-items: flex-start;
+  border-color: var(--interaction-palettewhite-hover);
+  border-left-style: solid;
+  border-left-width: 1px;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  margin-bottom: -1px;
+  margin-left: -1px;
+  margin-top: -1px;
+  position: relative;
+}
+
+.toolkit-header .notifications {
+  align-items: flex-start;
+  border-color: var(--interaction-palettewhite-hover);
+  border-left-style: solid;
+  border-left-width: 1px;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  margin-bottom: -1px;
+  margin-top: -1px;
+  position: relative;
+}
+
+.toolkit-header .notification-alert-instance {
+  flex: 0 0 auto !important;
+}
+
+.toolkit-header .profile-container {
+  align-items: flex-start;
+  border-color: var(--interaction-palettewhite-hover);
+  border-left-style: solid;
+  border-left-width: 1px;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  margin-bottom: -1px;
+  margin-right: -1px;
+  margin-top: -1px;
+  position: relative;
+}

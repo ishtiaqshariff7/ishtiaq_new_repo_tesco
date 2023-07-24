@@ -1,0 +1,894 @@
+.dropdown-default {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  position: relative;
+  width: 354px;
+}
+
+.dropdown-default .field-2 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  gap: 8px;
+  position: relative;
+  width: 100%;
+}
+
+.dropdown-default .label-container {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  position: relative;
+}
+
+.dropdown-default .label-6 {
+  font-family: var(--labels-label-font-family);
+  font-size: var(--labels-label-font-size);
+  font-style: var(--labels-label-font-style);
+  font-weight: var(--labels-label-font-weight);
+  letter-spacing: var(--labels-label-letter-spacing);
+  line-height: var(--labels-label-line-height);
+  position: relative;
+  text-align: right;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.dropdown-default .field-container-2 {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  flex-grow: 1;
+  gap: 8px;
+  position: relative;
+}
+
+.dropdown-default .field-3 {
+  align-self: stretch;
+  position: relative;
+  width: 100%;
+}
+
+.dropdown-default .hint-selection {
+  color: var(--text-palettebody-grey);
+  font-family: var(--body-standard-default-short-form-font-family);
+  font-size: var(--body-standard-default-short-form-font-size);
+  font-style: var(--body-standard-default-short-form-font-style);
+  font-weight: var(--body-standard-default-short-form-font-weight);
+  left: 12px;
+  letter-spacing: var(--body-standard-default-short-form-letter-spacing);
+  line-height: var(--body-standard-default-short-form-line-height);
+  position: absolute;
+  white-space: nowrap;
+  width: 248px;
+}
+
+.dropdown-default .overlap {
+  position: relative;
+  width: 305px;
+}
+
+.dropdown-default .DDS-form-style-focus {
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 305px;
+}
+
+.dropdown-default .field-4 {
+  background-color: var(--stylesform-stylesactive);
+  border: 1px solid;
+  border-color: var(--interaction-paletteactive-blue);
+  left: 4px;
+  position: absolute;
+  top: 4px;
+  width: 305px;
+}
+
+.dropdown-default .field-5 {
+  border: 4px solid;
+  border-color: var(--interaction-paletteactive-blue);
+  left: 0;
+  opacity: 0.4;
+  position: absolute;
+  top: 0;
+  width: 313px;
+}
+
+.dropdown-default .hint-selection-2 {
+  color: var(--text-palettebody-grey);
+  font-family: var(--body-standard-default-short-form-font-family);
+  font-size: var(--body-standard-default-short-form-font-size);
+  font-style: var(--body-standard-default-short-form-font-style);
+  font-weight: var(--body-standard-default-short-form-font-weight);
+  left: 13px;
+  letter-spacing: var(--body-standard-default-short-form-letter-spacing);
+  line-height: var(--body-standard-default-short-form-line-height);
+  position: absolute;
+  white-space: nowrap;
+  width: 248px;
+}
+
+.dropdown-default .class-45 {
+  left: 269px !important;
+  position: absolute !important;
+  top: 8px !important;
+}
+
+.dropdown-default .class-46 {
+  left: 269px !important;
+  position: absolute !important;
+  top: 4px !important;
+}
+
+.dropdown-default .overlap-wrapper {
+  align-self: stretch;
+  position: relative;
+  width: 100%;
+}
+
+.dropdown-default .overlap-2 {
+  position: relative;
+  width: 305px;
+}
+
+.dropdown-default .DDS-form-style-error {
+  background-color: var(--background-palettewhite);
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 305px;
+}
+
+.dropdown-default .field-6 {
+  background-color: var(--stylesform-stylesactive);
+  border: 1px solid;
+  border-color: var(--interaction-paletteerror-red);
+  left: 4px;
+  position: absolute;
+  top: 4px;
+  width: 305px;
+}
+
+.dropdown-default .field-7 {
+  border: 4px solid;
+  border-color: var(--interaction-paletteerror-red);
+  left: 0;
+  opacity: 0.4;
+  position: absolute;
+  top: 0;
+  width: 313px;
+}
+
+.dropdown-default .hint-selection-3 {
+  color: var(--text-palettebody-grey);
+  font-family: var(--body-standard-default-short-form-font-family);
+  font-size: var(--body-standard-default-short-form-font-size);
+  font-style: var(--body-standard-default-short-form-font-style);
+  font-weight: var(--body-standard-default-short-form-font-weight);
+  left: 13px;
+  letter-spacing: var(--body-standard-default-short-form-letter-spacing);
+  line-height: var(--body-standard-default-short-form-line-height);
+  position: absolute;
+  white-space: nowrap;
+  width: 248px;
+}
+
+.dropdown-default .error-text {
+  align-self: stretch;
+  color: var(--interaction-paletteerror-red);
+  font-family: var(--body-standard-default-short-form-font-family);
+  font-size: var(--body-standard-default-short-form-font-size);
+  font-style: var(--body-standard-default-short-form-font-style);
+  font-weight: var(--body-standard-default-short-form-font-weight);
+  letter-spacing: var(--body-standard-default-short-form-letter-spacing);
+  line-height: var(--body-standard-default-short-form-line-height);
+  position: relative;
+  white-space: nowrap;
+}
+
+.dropdown-default .label-7 {
+  align-items: center;
+  flex: 0 0 auto;
+  gap: 2px;
+  position: relative;
+}
+
+.dropdown-default .label-8 {
+  font-family: var(--labels-label-font-family);
+  font-size: var(--labels-label-font-size);
+  font-style: var(--labels-label-font-style);
+  font-weight: var(--labels-label-font-weight);
+  letter-spacing: var(--labels-label-letter-spacing);
+  line-height: var(--labels-label-line-height);
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.dropdown-default .optional-mark {
+  font-family: var(--body-standard-default-short-form-font-family);
+  font-size: var(--body-standard-default-short-form-font-size);
+  font-style: var(--body-standard-default-short-form-font-style);
+  font-weight: var(--body-standard-default-short-form-font-weight);
+  letter-spacing: var(--body-standard-default-short-form-letter-spacing);
+  line-height: var(--body-standard-default-short-form-line-height);
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.dropdown-default .label-9 {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 2px;
+  position: relative;
+}
+
+.dropdown-default .label-10 {
+  color: var(--text-paletteheader-grey);
+  font-family: var(--labels-label-font-family);
+  font-size: var(--labels-label-font-size);
+  font-style: var(--labels-label-font-style);
+  font-weight: var(--labels-label-font-weight);
+  letter-spacing: var(--labels-label-letter-spacing);
+  line-height: var(--labels-label-line-height);
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.dropdown-default .optional-mark-2 {
+  color: var(--text-palettebody-grey);
+  font-family: var(--body-standard-default-short-form-font-family);
+  font-size: var(--body-standard-default-short-form-font-size);
+  font-style: var(--body-standard-default-short-form-font-style);
+  font-weight: var(--body-standard-default-short-form-font-weight);
+  letter-spacing: var(--body-standard-default-short-form-letter-spacing);
+  line-height: var(--body-standard-default-short-form-line-height);
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.dropdown-default .hint {
+  align-self: stretch;
+  color: var(--text-palettebody-grey);
+  font-family: var(--body-standard-default-short-form-font-family);
+  font-size: var(--body-standard-default-short-form-font-size);
+  font-style: var(--body-standard-default-short-form-font-style);
+  font-weight: var(--body-standard-default-short-form-font-weight);
+  letter-spacing: var(--body-standard-default-short-form-letter-spacing);
+  line-height: var(--body-standard-default-short-form-line-height);
+  position: relative;
+  white-space: nowrap;
+}
+
+.dropdown-default .field-wrapper {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 12px;
+  position: relative;
+  width: 100%;
+}
+
+.dropdown-default .field-8 {
+  flex: 1;
+  flex-grow: 1;
+  position: relative;
+}
+
+.dropdown-default .overlap-group-3 {
+  position: relative;
+  width: 354px;
+}
+
+.dropdown-default .DDS-form-style-2 {
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 354px;
+}
+
+.dropdown-default .field-9 {
+  background-color: var(--stylesform-stylesactive);
+  border: 1px solid;
+  left: 4px;
+  position: absolute;
+  top: 4px;
+  width: 354px;
+}
+
+.dropdown-default .field-10 {
+  border: 4px solid;
+  left: 0;
+  opacity: 0.4;
+  position: absolute;
+  top: 0;
+  width: 362px;
+}
+
+.dropdown-default .hint-selection-4 {
+  color: var(--text-palettebody-grey);
+  font-family: var(--body-standard-default-short-form-font-family);
+  font-size: var(--body-standard-default-short-form-font-size);
+  font-style: var(--body-standard-default-short-form-font-style);
+  font-weight: var(--body-standard-default-short-form-font-weight);
+  left: 12px;
+  letter-spacing: var(--body-standard-default-short-form-letter-spacing);
+  line-height: var(--body-standard-default-short-form-line-height);
+  position: absolute;
+  white-space: nowrap;
+  width: 298px;
+}
+
+.dropdown-default .class-47 {
+  left: 318px !important;
+  position: absolute !important;
+  top: 4px !important;
+}
+
+.dropdown-default .class-48 {
+  left: 318px !important;
+  position: absolute !important;
+  top: 8px !important;
+}
+
+.dropdown-default .hint-selection-5 {
+  color: var(--text-palettebody-grey);
+  font-family: var(--body-standard-default-short-form-font-family);
+  font-size: var(--body-standard-default-short-form-font-size);
+  font-style: var(--body-standard-default-short-form-font-style);
+  font-weight: var(--body-standard-default-short-form-font-weight);
+  left: 11px;
+  letter-spacing: var(--body-standard-default-short-form-letter-spacing);
+  line-height: var(--body-standard-default-short-form-line-height);
+  position: absolute;
+  white-space: nowrap;
+  width: 298px;
+}
+
+.dropdown-default .error-container {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 10px;
+  position: relative;
+  width: 100%;
+}
+
+.dropdown-default .p {
+  color: var(--interaction-paletteerror-red);
+  flex: 1;
+  font-family: var(--body-standard-default-short-form-font-family);
+  font-size: var(--body-standard-default-short-form-font-size);
+  font-style: var(--body-standard-default-short-form-font-style);
+  font-weight: var(--body-standard-default-short-form-font-weight);
+  letter-spacing: var(--body-standard-default-short-form-letter-spacing);
+  line-height: var(--body-standard-default-short-form-line-height);
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+}
+
+.dropdown-default .size-6-thirty-two-px {
+  flex: 0 0 auto;
+}
+
+.dropdown-default .size-6-forty-px {
+  flex: 1;
+  flex-grow: 1;
+}
+
+.dropdown-default .state-10-disabled {
+  color: var(--text-paletteheader-grey);
+}
+
+.dropdown-default .state-10-focus {
+  color: var(--text-paletteheader-grey);
+}
+
+.dropdown-default .state-10-default {
+  color: var(--text-paletteheader-grey);
+}
+
+.dropdown-default .state-10-error {
+  color: var(--interaction-paletteerror-red);
+}
+
+.dropdown-default .state-10-error-focus {
+  color: var(--interaction-paletteerror-red);
+}
+
+.dropdown-default .state-4-default {
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: #666666;
+}
+
+.dropdown-default .size-9-thirty-two-px {
+  height: 32px;
+}
+
+.dropdown-default .size-9-forty-px {
+  height: 40px;
+}
+
+.dropdown-default .state-13-disabled {
+  height: 40px;
+}
+
+.dropdown-default .state-13-focus {
+  height: 40px;
+}
+
+.dropdown-default .state-13-default {
+  height: 40px;
+}
+
+.dropdown-default .state-13-error {
+  background-color: var(--stylesform-stylesactive);
+  border: 1px solid;
+  border-color: var(--interaction-paletteerror-red);
+}
+
+.dropdown-default .state-13-error-focus {
+  left: -4px;
+  position: relative;
+  top: -4px;
+  width: 313px;
+}
+
+.dropdown-default .state-13-error-focus.size-20-forty-px {
+  height: 48px;
+}
+
+.dropdown-default .size-20-thirty-two-px.state-13-error {
+  height: 32px;
+}
+
+.dropdown-default .state-13-error.size-20-forty-px {
+  height: 40px;
+}
+
+.dropdown-default .size-20-thirty-two-px.state-13-error-focus {
+  height: 40px;
+}
+
+.dropdown-default .state-14-disabled {
+  display: inline-flex;
+}
+
+.dropdown-default .state-14-focus {
+  display: inline-flex;
+}
+
+.dropdown-default .complete-true {
+  display: inline-flex;
+}
+
+.dropdown-default .size-24-thirty-two-px {
+  display: inline-flex;
+}
+
+.dropdown-default .state-14-error {
+  display: inline-flex;
+}
+
+.dropdown-default .state-14-error-focus {
+  display: inline-flex;
+}
+
+.dropdown-default .complete-false.state-14-default.size-24-forty-px {
+  align-self: stretch;
+  display: flex;
+  width: 100%;
+}
+
+.dropdown-default .state-7-default {
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: #666666;
+}
+
+.dropdown-default .size-25-thirty-two-px {
+  height: 32px;
+}
+
+.dropdown-default .size-25-forty-px {
+  height: 40px;
+}
+
+.dropdown-default .field-2.size-6-thirty-two-px .label-container {
+  height: 32px;
+}
+
+.dropdown-default .field-2.size-6-forty-px .label-container {
+  height: 40px;
+}
+
+.dropdown-default .field-2.size-6-thirty-two-px .field-container-2 {
+  align-items: center;
+}
+
+.dropdown-default .field-2.size-6-forty-px .field-container-2 {
+  align-items: flex-start;
+}
+
+.dropdown-default .field-3.size-9-thirty-two-px .hint-selection {
+  top: 4px;
+}
+
+.dropdown-default .field-3.size-9-forty-px .hint-selection {
+  top: 8px;
+}
+
+.dropdown-default .field-3.size-9-thirty-two-px .overlap {
+  height: 32px;
+}
+
+.dropdown-default .field-3.size-9-forty-px .overlap {
+  height: 40px;
+}
+
+.dropdown-default .field-3.state-4-disabled .DDS-form-style-focus {
+  background-color: var(--background-palettelight-grey);
+}
+
+.dropdown-default .field-3.state-4-focus .DDS-form-style-focus {
+  background-color: var(--background-palettewhite);
+}
+
+.dropdown-default .field-3.state-4-default .DDS-form-style-focus {
+  background-color: var(--background-palettewhite);
+}
+
+.dropdown-default .field-3.size-9-thirty-two-px .DDS-form-style-focus {
+  height: 32px;
+}
+
+.dropdown-default .field-3.size-9-forty-px .DDS-form-style-focus {
+  height: 40px;
+}
+
+.dropdown-default .field-3.state-4-error .DDS-form-style-focus {
+  background-color: var(--background-palettewhite);
+}
+
+.dropdown-default .field-3.state-4-error-focus .DDS-form-style-focus {
+  background-color: var(--background-palettewhite);
+}
+
+.dropdown-default .field-3.state-4-disabled .overlap_group {
+  border: 1px solid;
+  border-color: var(--line-paletteline-grey-1);
+}
+
+.dropdown-default .field-3.state-4-focus .overlap_group {
+  left: -4px;
+  position: relative;
+  top: -4px;
+  width: 313px;
+}
+
+.dropdown-default .field-3.state-4-default .overlap_group {
+  height: 40px;
+}
+
+.dropdown-default .field-3.state-4-error .overlap_group {
+  height: 40px;
+}
+
+.dropdown-default .field-3.state-4-error-focus .overlap_group {
+  height: 40px;
+}
+
+.dropdown-default .field-3.state-4-focus.size-9-forty-px .overlap_group {
+  height: 48px;
+}
+
+.dropdown-default .field-3.state-4-disabled.size-9-forty-px .overlap_group {
+  height: 40px;
+}
+
+.dropdown-default .field-3.size-9-thirty-two-px.state-4-disabled .overlap_group {
+  height: 32px;
+}
+
+.dropdown-default .field-3.size-9-thirty-two-px.state-4-focus .overlap_group {
+  height: 40px;
+}
+
+.dropdown-default .field-3.size-9-thirty-two-px .field-4 {
+  height: 32px;
+}
+
+.dropdown-default .field-3.size-9-forty-px .field-4 {
+  height: 40px;
+}
+
+.dropdown-default .field-3.size-9-thirty-two-px .field-5 {
+  height: 40px;
+}
+
+.dropdown-default .field-3.size-9-forty-px .field-5 {
+  height: 48px;
+}
+
+.dropdown-default .field-3.size-9-thirty-two-px .hint-selection-2 {
+  top: 5px;
+}
+
+.dropdown-default .field-3.size-9-forty-px .hint-selection-2 {
+  top: 9px;
+}
+
+.dropdown-default .field-2.size-6-thirty-two-px .overlap-wrapper {
+  height: 32px;
+}
+
+.dropdown-default .field-2.size-6-forty-px .overlap-wrapper {
+  height: 40px;
+}
+
+.dropdown-default .field-2.size-6-thirty-two-px .overlap-2 {
+  height: 32px;
+}
+
+.dropdown-default .field-2.size-6-forty-px .overlap-2 {
+  height: 40px;
+}
+
+.dropdown-default .field-2.size-6-thirty-two-px .DDS-form-style-error {
+  height: 32px;
+}
+
+.dropdown-default .field-2.size-6-forty-px .DDS-form-style-error {
+  height: 40px;
+}
+
+.dropdown-default .overlap_group.size-20-thirty-two-px .field-6 {
+  height: 32px;
+}
+
+.dropdown-default .overlap_group.size-20-forty-px .field-6 {
+  height: 40px;
+}
+
+.dropdown-default .overlap_group.size-20-thirty-two-px .field-7 {
+  height: 40px;
+}
+
+.dropdown-default .overlap_group.size-20-forty-px .field-7 {
+  height: 48px;
+}
+
+.dropdown-default .field-2.size-6-thirty-two-px .hint-selection-3 {
+  top: 5px;
+}
+
+.dropdown-default .field-2.size-6-forty-px .hint-selection-3 {
+  top: 9px;
+}
+
+.dropdown-default .label-7.state-14-disabled .label-8 {
+  color: var(--text-paletteheader-grey);
+}
+
+.dropdown-default .label-7.state-14-focus .label-8 {
+  color: var(--text-paletteheader-grey);
+}
+
+.dropdown-default .label-7.state-14-default .label-8 {
+  color: var(--text-paletteheader-grey);
+}
+
+.dropdown-default .label-7.state-14-error .label-8 {
+  color: var(--interaction-paletteerror-red);
+}
+
+.dropdown-default .label-7.state-14-error-focus .label-8 {
+  color: var(--interaction-paletteerror-red);
+}
+
+.dropdown-default .label-7.state-14-disabled .optional-mark {
+  color: var(--text-palettebody-grey);
+}
+
+.dropdown-default .label-7.state-14-focus .optional-mark {
+  color: var(--text-palettebody-grey);
+}
+
+.dropdown-default .label-7.state-14-default .optional-mark {
+  color: var(--text-palettebody-grey);
+}
+
+.dropdown-default .label-7.state-14-error .optional-mark {
+  color: var(--interaction-paletteerror-red);
+}
+
+.dropdown-default .label-7.state-14-error-focus .optional-mark {
+  color: var(--interaction-paletteerror-red);
+}
+
+.dropdown-default .field-8.size-25-thirty-two-px .overlap-group-3 {
+  height: 32px;
+}
+
+.dropdown-default .field-8.size-25-forty-px .overlap-group-3 {
+  height: 40px;
+}
+
+.dropdown-default .field-8.state-7-disabled .DDS-form-style-2 {
+  background-color: var(--background-palettelight-grey);
+}
+
+.dropdown-default .field-8.state-7-focus .DDS-form-style-2 {
+  background-color: var(--background-palettewhite);
+}
+
+.dropdown-default .field-8.state-7-default .DDS-form-style-2 {
+  background-color: var(--background-palettewhite);
+}
+
+.dropdown-default .field-8.size-25-thirty-two-px .DDS-form-style-2 {
+  height: 32px;
+}
+
+.dropdown-default .field-8.size-25-forty-px .DDS-form-style-2 {
+  height: 40px;
+}
+
+.dropdown-default .field-8.state-7-error .DDS-form-style-2 {
+  background-color: var(--background-palettewhite);
+}
+
+.dropdown-default .field-8.state-7-error-focus .DDS-form-style-2 {
+  background-color: var(--background-palettewhite);
+}
+
+.dropdown-default .field-8.state-7-disabled .field-17 {
+  border: 1px solid;
+  border-color: var(--line-paletteline-grey-1);
+}
+
+.dropdown-default .field-8.state-7-focus .field-17 {
+  border-color: var(--line-paletteline-grey-1);
+  left: -4px;
+  position: relative;
+  top: -4px;
+  width: 362px;
+}
+
+.dropdown-default .field-8.state-7-default .field-17 {
+  border-color: var(--line-paletteline-grey-1);
+  height: 40px;
+}
+
+.dropdown-default .field-8.state-7-error .field-17 {
+  background-color: var(--stylesform-stylesactive);
+  border: 1px solid;
+  border-color: var(--interaction-paletteerror-red);
+}
+
+.dropdown-default .field-8.state-7-error-focus .field-17 {
+  border-color: var(--line-paletteline-grey-1);
+  left: -4px;
+  position: relative;
+  top: -4px;
+  width: 362px;
+}
+
+.dropdown-default .field-8.state-7-focus.size-25-forty-px .field-17 {
+  height: 48px;
+}
+
+.dropdown-default .field-8.state-7-disabled.size-25-forty-px .field-17 {
+  height: 40px;
+}
+
+.dropdown-default .field-8.size-25-thirty-two-px.state-7-disabled .field-17 {
+  height: 32px;
+}
+
+.dropdown-default .field-8.size-25-thirty-two-px.state-7-focus .field-17 {
+  height: 40px;
+}
+
+.dropdown-default .field-8.state-7-error-focus.size-25-forty-px .field-17 {
+  height: 48px;
+}
+
+.dropdown-default .field-8.size-25-thirty-two-px.state-7-error .field-17 {
+  height: 32px;
+}
+
+.dropdown-default .field-8.state-7-error.size-25-forty-px .field-17 {
+  height: 40px;
+}
+
+.dropdown-default .field-8.size-25-thirty-two-px.state-7-error-focus .field-17 {
+  height: 40px;
+}
+
+.dropdown-default .field-8.state-7-disabled .field-9 {
+  border-color: var(--interaction-paletteactive-blue);
+}
+
+.dropdown-default .field-8.state-7-focus .field-9 {
+  border-color: var(--interaction-paletteactive-blue);
+}
+
+.dropdown-default .field-8.state-7-default .field-9 {
+  border-color: var(--interaction-paletteactive-blue);
+}
+
+.dropdown-default .field-8.size-25-thirty-two-px .field-9 {
+  height: 32px;
+}
+
+.dropdown-default .field-8.size-25-forty-px .field-9 {
+  height: 40px;
+}
+
+.dropdown-default .field-8.state-7-error .field-9 {
+  border-color: var(--interaction-paletteactive-blue);
+}
+
+.dropdown-default .field-8.state-7-error-focus .field-9 {
+  border-color: var(--interaction-paletteerror-red);
+}
+
+.dropdown-default .field-8.state-7-disabled .field-10 {
+  border-color: var(--interaction-paletteactive-blue);
+}
+
+.dropdown-default .field-8.state-7-focus .field-10 {
+  border-color: var(--interaction-paletteactive-blue);
+}
+
+.dropdown-default .field-8.state-7-default .field-10 {
+  border-color: var(--interaction-paletteactive-blue);
+}
+
+.dropdown-default .field-8.size-25-thirty-two-px .field-10 {
+  height: 40px;
+}
+
+.dropdown-default .field-8.size-25-forty-px .field-10 {
+  height: 48px;
+}
+
+.dropdown-default .field-8.state-7-error .field-10 {
+  border-color: var(--interaction-paletteactive-blue);
+}
+
+.dropdown-default .field-8.state-7-error-focus .field-10 {
+  border-color: var(--interaction-paletteerror-red);
+}
+
+.dropdown-default .field-8.size-25-thirty-two-px .hint-selection-4 {
+  top: 5px;
+}
+
+.dropdown-default .field-8.size-25-forty-px .hint-selection-4 {
+  top: 9px;
+}
+
+.dropdown-default .field-8.size-25-thirty-two-px .hint-selection-5 {
+  top: 4px;
+}
+
+.dropdown-default .field-8.size-25-forty-px .hint-selection-5 {
+  top: 8px;
+}

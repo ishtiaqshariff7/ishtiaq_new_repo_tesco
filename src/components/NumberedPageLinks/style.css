@@ -1,0 +1,97 @@
+.numbered-page-links {
+  height: 24px;
+  width: 24px;
+}
+
+.numbered-page-links .text-10 {
+  top: 1px;
+}
+
+.numbered-page-links .text-11 {
+  height: 18px;
+  left: 9px;
+  position: absolute;
+  top: 1px;
+  width: 6px;
+}
+
+.numbered-page-links .text-12 {
+  color: var(--text-paletteheader-and-body-white);
+  font-family: var(--labels-label-small-font-family);
+  font-size: var(--labels-label-small-font-size);
+  font-style: var(--labels-label-small-font-style);
+  font-weight: var(--labels-label-small-font-weight);
+  left: 0;
+  letter-spacing: var(--labels-label-small-letter-spacing);
+  line-height: var(--labels-label-small-line-height);
+  position: absolute;
+  text-align: center;
+  top: 0;
+  white-space: nowrap;
+  width: 24px;
+}
+
+.numbered-page-links.state-21-selected {
+  background-color: #007eb3;
+  border-radius: 12px;
+}
+
+.numbered-page-links.state-21-ellipses {
+  position: relative;
+}
+
+.numbered-page-links.state-21-default {
+  position: relative;
+}
+
+.numbered-page-links.state-21-hover {
+  position: relative;
+}
+
+.numbered-page-links.state-21-selected .text-10 {
+  height: 19px;
+  position: relative;
+}
+
+.numbered-page-links.state-21-ellipses .text-10 {
+  color: var(--text-palettebody-grey);
+  font-family: "TESCO Modern-Regular", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 18px;
+  position: absolute;
+  text-align: center;
+  white-space: nowrap;
+  width: 24px;
+}
+
+.numbered-page-links.state-21-default .text-10 {
+  color: var(--text-palettetesco-blue);
+  font-family: "TESCO Modern-Regular", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 18px;
+  position: absolute;
+  text-align: center;
+  white-space: nowrap;
+  width: 24px;
+}
+
+.numbered-page-links.state-21-hover .text-10 {
+  color: var(--text-palettetesco-blue);
+  font-family: "TESCO Modern-Regular", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 18px;
+  position: absolute;
+  text-align: center;
+  text-decoration: underline;
+  white-space: nowrap;
+  width: 24px;
+}
